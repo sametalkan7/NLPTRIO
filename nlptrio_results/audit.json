@@ -1,0 +1,117 @@
+{
+  "source": "hasancanbiyik/turkish-potentially-euphemistic-terms",
+  "total_rows": 2436,
+  "num_pets": 70,
+  "label_1": 1457,
+  "label_0": 979,
+  "pets_with_both_observed_labels": 56,
+  "pets_with_one_observed_label": 14,
+  "duplicate_ids": 0,
+  "folds": [
+    {
+      "fold": 0,
+      "train": {
+        "sentences": 1711,
+        "pets": 46,
+        "label_1": 1052,
+        "label_0": 659
+      },
+      "val": {
+        "sentences": 246,
+        "pets": 8,
+        "label_1": 161,
+        "label_0": 85
+      },
+      "test": {
+        "sentences": 479,
+        "pets": 16,
+        "label_1": 244,
+        "label_0": 235
+      }
+    },
+    {
+      "fold": 1,
+      "train": {
+        "sentences": 1709,
+        "pets": 47,
+        "label_1": 1010,
+        "label_0": 699
+      },
+      "val": {
+        "sentences": 249,
+        "pets": 8,
+        "label_1": 144,
+        "label_0": 105
+      },
+      "test": {
+        "sentences": 478,
+        "pets": 15,
+        "label_1": 303,
+        "label_0": 175
+      }
+    },
+    {
+      "fold": 2,
+      "train": {
+        "sentences": 1672,
+        "pets": 48,
+        "label_1": 969,
+        "label_0": 703
+      },
+      "val": {
+        "sentences": 240,
+        "pets": 8,
+        "label_1": 139,
+        "label_0": 101
+      },
+      "test": {
+        "sentences": 524,
+        "pets": 14,
+        "label_1": 349,
+        "label_0": 175
+      }
+    },
+    {
+      "fold": 3,
+      "train": {
+        "sentences": 1685,
+        "pets": 49,
+        "label_1": 1008,
+        "label_0": 677
+      },
+      "val": {
+        "sentences": 221,
+        "pets": 9,
+        "label_1": 140,
+        "label_0": 81
+      },
+      "test": {
+        "sentences": 530,
+        "pets": 12,
+        "label_1": 309,
+        "label_0": 221
+      }
+    },
+    {
+      "fold": 4,
+      "train": {
+        "sentences": 1779,
+        "pets": 49,
+        "label_1": 1040,
+        "label_0": 739
+      },
+      "val": {
+        "sentences": 232,
+        "pets": 8,
+        "label_1": 165,
+        "label_0": 67
+      },
+      "test": {
+        "sentences": 425,
+        "pets": 13,
+        "label_1": 252,
+        "label_0": 173
+      }
+    }
+  ]
+}

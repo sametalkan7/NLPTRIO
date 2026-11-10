@@ -1,0 +1,24 @@
+# Local virtual environments and Python cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+# Hugging Face or trained weights (large; not required for baseline reproduction)
+checkpoints/
+models/
+*.safetensors
+*.pt
+*.pth
+# Downloaded datasets: download from the attributed original source instead
+raw_data/
+datasets/
+# Machine/Colab secrets
+.env
+.env.*
+*.key
+*.pem
+# Generated office and archives
+*.zip
+~$*

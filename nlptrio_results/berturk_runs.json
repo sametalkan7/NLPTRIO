@@ -1,0 +1,101 @@
+[
+  {
+    "fold": 0,
+    "seed": 42,
+    "condition": "standard",
+    "epochs": 3,
+    "batch_size": 8,
+    "max_length": 256,
+    "train_sentences": 1711,
+    "validation_sentences": 246,
+    "test_sentences": 479,
+    "num_masked_train_sentences": 0,
+    "elapsed_training_seconds": 105.01773111299997,
+    "best_val_f1": 0.627950607829999,
+    "best_epoch": 3,
+    "max_gpu_memory_gb": 2.1071524620056152,
+    "history": [
+      {
+        "epoch": 1,
+        "loss": 0.5756103681208932,
+        "val_macro_f1": 0.5184653529949106
+      },
+      {
+        "epoch": 2,
+        "loss": 0.30169989908479644,
+        "val_macro_f1": 0.5550884739466223
+      },
+      {
+        "epoch": 3,
+        "loss": 0.11314752325198013,
+        "val_macro_f1": 0.627950607829999
+      }
+    ]
+  },
+  {
+    "fold": 0,
+    "seed": 42,
+    "condition": "uniform",
+    "epochs": 3,
+    "batch_size": 8,
+    "max_length": 256,
+    "train_sentences": 1711,
+    "validation_sentences": 246,
+    "test_sentences": 479,
+    "num_masked_train_sentences": 513,
+    "elapsed_training_seconds": 112.02535014399996,
+    "best_val_f1": 0.644555365821621,
+    "best_epoch": 3,
+    "max_gpu_memory_gb": 2.1086812019348145,
+    "history": [
+      {
+        "epoch": 1,
+        "loss": 0.5959689112327923,
+        "val_macro_f1": 0.48790642347343377
+      },
+      {
+        "epoch": 2,
+        "loss": 0.37181380725352564,
+        "val_macro_f1": 0.5254629629629629
+      },
+      {
+        "epoch": 3,
+        "loss": 0.14603546941130657,
+        "val_macro_f1": 0.644555365821621
+      }
+    ]
+  },
+  {
+    "fold": 0,
+    "seed": 42,
+    "condition": "ambiguity",
+    "epochs": 3,
+    "batch_size": 8,
+    "max_length": 256,
+    "train_sentences": 1711,
+    "validation_sentences": 246,
+    "test_sentences": 479,
+    "num_masked_train_sentences": 513,
+    "elapsed_training_seconds": 114.43698178499994,
+    "best_val_f1": 0.6657608695652174,
+    "best_epoch": 3,
+    "max_gpu_memory_gb": 2.108196258544922,
+    "history": [
+      {
+        "epoch": 1,
+        "loss": 0.5632583965486455,
+        "val_macro_f1": 0.5285403501502124
+      },
+      {
+        "epoch": 2,
+        "loss": 0.29530782616375206,
+        "val_macro_f1": 0.638235294117647
+      },
+      {
+        "epoch": 3,
+        "loss": 0.11990227282186534,
+        "val_macro_f1": 0.6657608695652174
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "python": "3.13.16",
+  "numpy": "2.4.6",
+  "pandas": "2.2.3",
+  "scikit_learn": "1.6.1",
+  "model_id": "dbmdz/bert-base-turkish-cased",
+  "dataset_id": "hasancanbiyik/turkish-potentially-euphemistic-terms",
+  "split_seed": 42,
+  "validation_seed_rule": "100 + fold",
+  "mask_fraction": 0.3,
+  "training_seeds": [
+    42,
+    123,
+    2026
+  ],
+  "dataset_sha256": "81c30d082919c6798e3139f2430bcd235fa2cfa4138b11478da0bd94c05f02bd",
+  "torch_version": "2.14.1+cu130",
+  "transformers_version": "4.57.6",
+  "huggingface-hub_version": "0.36.2"
+}

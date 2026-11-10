@@ -1,0 +1,44 @@
+{
+  "majority": {
+    "mean_fold_macro_f1": 0.3731487565456524,
+    "std_fold_macro_f1": 0.021093591379006797,
+    "pooled_out_of_fold_macro_f1": 0.3742614949910095,
+    "pooled_95pct_pet_cluster_CI": [
+      0.3543996136337539,
+      0.39504660211729375
+    ],
+    "pooled_confusion_matrix": [
+      [
+        0,
+        979
+      ],
+      [
+        0,
+        1457
+      ]
+    ],
+    "n_test_examples_all_folds": 2436,
+    "n_test_pets_all_folds": 70
+  },
+  "tfidf_logreg": {
+    "mean_fold_macro_f1": 0.40937364838530754,
+    "std_fold_macro_f1": 0.03996632998190745,
+    "pooled_out_of_fold_macro_f1": 0.40874259839777083,
+    "pooled_95pct_pet_cluster_CI": [
+      0.38456669914468933,
+      0.4347376356744783
+    ],
+    "pooled_confusion_matrix": [
+      [
+        37,
+        942
+      ],
+      [
+        28,
+        1429
+      ]
+    ],
+    "n_test_examples_all_folds": 2436,
+    "n_test_pets_all_folds": 70
+  }
+}
